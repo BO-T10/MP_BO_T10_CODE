@@ -60,8 +60,8 @@ def prepare_output(pred):
             prob_sum_less_than_index += pred[0][i + 2]
         elif i > weighted_age_index:
             prob_sum_more_than_index += pred[0][i + 2]
-    age_low = weighted_age - age_factor * prob_sum_less_than_index
-    age_high = weighted_age + age_factor * prob_sum_more_than_index
+    age_low = int(floor(weighted_age - age_factor * prob_sum_less_than_index))
+    age_high = int(ceil(weighted_age + age_factor * prob_sum_more_than_index))
 
     output.append(age_low)
     output.append(age_high)

@@ -6,7 +6,7 @@
 
 #### Setup :
 
-> In case the below Setup fails due to some reason, please go to this colab instance created by us and run the commands there. Finally just upload your evaluation files(images/videos) on the colab instance ([HEYYYY ADD LINK HERE]()) and correspondingly update the test code. (The same colab notebook is available as `MP_BO_T10_COLAB.ipynb` in the repo as well.)
+> In case the below Setup fails due to some reason, please go to this colab instance created by us and run the commands there. Finally just upload your evaluation files(images/videos) on the colab instance ([LINK HERE](https://colab.research.google.com/drive/1Q96qgB7mVweHwGtjGt_LscQqG2hDbKk-?usp=sharing)) and correspondingly update the test code. (The same colab notebook is available as `MP_BO_T10_COLAB.ipynb` in the repo as well.)
 
 Before proceeding ensure that you are inside the `MP_BO_T10_CODE/` directory.
 
