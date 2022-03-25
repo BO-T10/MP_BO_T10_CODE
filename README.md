@@ -15,13 +15,13 @@ Installing the dependencies:
 # Changing the working directory into the repository
 cd <TODO : insert repo name here>
 # Installing the dependencies
+pip3 install -r requirements.txt
 pip3 install 'git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI'
 pip3 install --upgrade --no-cache-dir gdown
-pip3 install -r requirements.txt
 ```
  Downloading the pretrained models directory & storing them as `/pretrained`. Please note, if these commands do not work please download the zip file manually from the drive link provided [here](https://drive.google.com/file/d/18qPkmJIZ4fID5fA309uc8UA0HDMUjF4U/view?usp=sharing) and extract it as a directory `/pretrained`.
 ```
-gdown --id "18qPkmJIZ4fID5fA309uc8UA0HDMUjF4U"
+gdown "18qPkmJIZ4fID5fA309uc8UA0HDMUjF4U"
 unzip pretrained
 rm -rf pretrained.zip
 ```
