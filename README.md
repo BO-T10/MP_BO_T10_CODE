@@ -1,6 +1,16 @@
 ## BOSCH'S AGE AND GENDER DETECTION MODEL
 
 ---
+### DESCRIPTION:
+We had to come up with a solution that could estimate Age & Gender of people from a surveillance video feed. The pain points included :
+* <u>Low-resolution surveillance</u> footages made it difficult to extract features to predict age & gender. And as a result, Super Resolution Models didn't perform well.
+* <u>Cameras at varying height</u> posed a challenge as the viewing angles became more complicated.
+* <u>Occlusion</u> between objects made it difficult to assign a unique tracking-ID to a person throughout the video.
+
+After experimenting with various models, reading the literature available and trying what worked best for us, we came up with a pipeline which makes use of <b>YOLOX for Object Detection, ByteTrack tracking algorithm for Object Tracking, and finally a custom model that estimates the age & gender</b>.
+
+### RESULTS:
+![Results we achieved by running our model on a low-resolution surveillance footage from VIRAT Ground Dataset](./final_output/outputForReadme.gif)
 
 ### USAGE: 
 
